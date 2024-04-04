@@ -1,29 +1,23 @@
 @import './base.css';
 
-#app {
-  margin: 0 auto;
-  font-weight: normal;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: #00bd7e;
-  transition: 0.4s;
-  padding: 3px;
-}
 
 ::-webkit-scrollbar{
-  color: var(--color-bg);
-  width: 6px;
+  display: none;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-text);
-  border-radius: 8px;
+.wrapper{
+    display: flex;
+    width: 40%;
+    height: 50vh;
+    margin: 5% auto;
+
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #00bd7e;
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-
