@@ -5,7 +5,7 @@ import HomePage from './components/HomePage.vue'
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="wrapper glass">
       <HomePage />
     </div>
   </header>
