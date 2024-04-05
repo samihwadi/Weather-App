@@ -4,7 +4,7 @@
 
 ## Overview
 
-'Weather' is a Vue desktop application designed to provide users with precise and trustworthy weather information, including temperature, humidity, and wind speed using the OpenWeather API.
+'Weather' is a Vue web application designed to provide users with precise and trustworthy weather information, including temperature, humidity, and wind speed using the OpenWeather API.
 
 ## Features
 
