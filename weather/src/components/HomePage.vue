@@ -76,6 +76,9 @@ export default {
     justify-content: space-evenly;
   }
 
+  img {
+    width: 30%;
+  }
   .top-right{
     display: flex;
     flex-direction: column;
